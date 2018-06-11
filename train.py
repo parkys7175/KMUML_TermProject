@@ -6,8 +6,9 @@ import numpy as np
 import random
 
 
-max_epochs = 100
+max_epochs = 25
 base_image_path = "./DataSet/training"
+base_test_path = "./DataSet/test"
 image_types = ["red", "green", "yellow"]
 input_img_x = 64
 input_img_y = 64
